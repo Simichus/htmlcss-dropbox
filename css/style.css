@@ -36,6 +36,10 @@ body{
     width: 70%;
 }
 
+.wh-95{
+    width: 95%;
+}
+
 .wh-60{
     width: 60%;
 }
@@ -54,6 +58,10 @@ body{
 
 .wh-30{
     width: 30%;
+}
+
+.wh-5{
+    width: 5%;
 }
 
 .ta-r{
@@ -561,3 +569,30 @@ main{
         }
 
         /* Clients section end */
+
+        /* Question section */
+
+        #question{
+            margin-top: 200px;
+            margin-bottom: 200px;
+        }
+
+        #question h2{
+            font-size: 48px;
+            margin-bottom: 60px;
+        }
+
+        #question .row.clearfix{
+            padding: 40px 0;
+            border-bottom: 1px solid lightgray;
+        }
+
+        #question .row.clearfix:nth-child(2){
+            border-top: 1px solid lightgray;
+        }
+
+        /* Question section end */
+
+/* Main end */
+
+/* Footer */
