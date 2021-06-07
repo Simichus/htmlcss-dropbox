@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: 'Open Sans', sans-serif;
 }
@@ -69,6 +73,11 @@ a{
 
 .btn-blue:hover{
     background-color: rgb(47, 120, 255);
+}
+
+.btn-full{
+    text-align: center;
+    width: 80%;
 }
 /* Header */
 
@@ -150,3 +159,130 @@ a{
     }
 
     /* Spotlight end */
+
+/* Header end */
+
+/* Main */
+
+main{
+    padding-top: 220px;
+}
+
+    /* Business plan */
+    #business-plan h2{
+        font-size: 50px;
+        margin-bottom: 50px;
+    }
+
+    #business-plan span, #monthly, #annual{
+        display: inline-block;
+    }
+
+    #business-plan span{
+        line-height: 20px;
+        margin-right: 40px;
+        margin-bottom: 40px;
+    }
+
+    #monthly, #annual{
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        margin-right: 5px;
+        vertical-align: middle;
+    }
+    
+    #monthly{
+        border: 5px solid rgb(0, 89, 255);
+    }
+
+    #annual{
+        border: 1px solid lightgray;
+    }
+
+    #business-plan .clearfix{
+        margin-bottom: 30px;
+    }
+
+        /* Business plan columns */
+
+      .bp-type{
+          width: 90%;
+          position: relative;
+      }
+
+      .bp-type .header-bp{
+          padding: 10px 0;
+          text-align: center;
+          border: 1px solid lightgray;
+        }
+        
+        .bp-type .main-bp{
+            height: 900px;
+            border: 1px solid lightgray;
+            border-top: none;
+            padding: 0 20px;
+        }
+        
+      .bp-type h3{
+          padding-top: 20px;
+          font-size: 30px;
+      }
+
+      .bp-type .price{
+          font-weight: bold;
+          margin: 10px 0;
+      }
+
+      .bp-type .payment-type{
+          color: gray;
+          margin: 10px 0;
+          margin-bottom: 30px;
+      }
+
+      .bp-type .info-bp{
+          margin: 25px 0;
+      }
+
+      .bp-type .info-bp:last-child{
+          margin-bottom: 100px;
+      }
+
+      .bp-type .btn{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        margin: 0 auto;
+      }
+
+      .bp-type .buy-now{
+          margin-top: 80px;
+      }
+
+      .bp-type .buy-now a{
+          color: blue;
+          text-decoration: underline;
+      }
+
+      .bp-type hr{
+          color: transparent;
+          border-top: 1px solid lightgray;
+          width: 20%;
+          margin-bottom: 50px;
+      }
+
+      .bp-type ul{
+          list-style-type: none;
+      }
+
+      .bp-type ul li::before{
+          content: "\2714";
+          color: rgb(0, 89, 255);
+      }
+
+      .bp-type ul > *{
+          margin: 20px 0;
+      }
+
+      /* Business plan columns end */
+    
