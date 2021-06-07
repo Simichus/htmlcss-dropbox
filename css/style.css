@@ -79,6 +79,18 @@ a{
     background-color: rgb(47, 120, 255);
 }
 
+.btn-white{
+    color: black;
+    border: 1px solid black;
+    font-weight: 600;
+    transition: background-color .25s;
+}
+
+.btn-white:hover{
+    color: white;
+    background-color: black;
+}
+
 .btn-full{
     text-align: center;
     width: 80%;
@@ -253,23 +265,23 @@ main{
       }
 
       .bp-type .info-bp .icon-left{
-        width: 16px;
-    }
+          width: 16px;
+      }
 
-    .bp-type .info-bp .info-bp-text{
-        width: 95%;
-        padding-left: 1px;
-    }
+       .bp-type .info-bp .info-bp-text{
+          width: 95%;
+          padding-left: 3px;
+      }
 
       .bp-type .info-bp:last-child{
           margin-bottom: 100px;
       }
 
       .bp-type .btn{
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
-        margin: 0 auto;
+          position: absolute;
+          left: 50%;
+          transform: translateX(-50%);
+          margin: 0 auto;
       }
 
       .bp-type .buy-now{
@@ -338,3 +350,26 @@ main{
           margin-top: 40px;
           margin-bottom: 30px;
       }
+
+    /* Business plan end */
+
+    /* Find partner section */
+
+    #find-partner .col img{
+        width: 100%;
+    }
+
+    #find-partner .col:last-child{
+        padding: 0 40px;
+        padding-top: 30px;
+    }
+
+    #find-partner .col:last-child h2{
+        font-size: 32px;
+        margin-bottom: 30px;
+    }
+
+    #find-partner .col:last-child p{
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
