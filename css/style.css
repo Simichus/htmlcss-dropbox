@@ -1,0 +1,101 @@
+/* Reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    max-width: 1500px;
+    min-width: 900px;
+    margin: 0 auto;
+}
+
+/* Utils */
+
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.col{
+    float: left;
+}
+
+.container-80{
+    width: 80%;
+}
+
+.container-70{
+    width: 70%;
+}
+
+.wh-50{
+    width: 50%;
+}
+
+.wh-33{
+    width: calc(100% / 3);
+}
+
+.ta-r{
+    text-align: right;
+}
+
+a{
+    text-decoration: none;
+}
+
+.btn{
+    padding: 10px 20px;
+}
+
+.btn-blue{
+    color: white;
+    background-color: rgb(0, 89, 255);
+    transition: background-color .25s;
+}
+
+.btn-blue:hover{
+    background-color: rgb(47, 120, 255);
+}
+/* Header */
+
+    /* Main nav */
+
+    .main-header .main-nav{
+        height: 70px;
+    }
+
+    .main-header .main-nav *{
+        display: inline-block;
+    }
+    
+    .main-header .main-nav img{
+        vertical-align: middle;
+        margin-right: 10px;
+    }
+    
+    .main-header .main-nav ul li{
+        line-height: 70px;
+        margin: 0 20px;
+    }
+
+    .main-header .main-nav ul li a{
+        font-weight: 600;
+        color: black;
+    }
+
+    .main-header .main-nav ul li a:hover{
+        text-decoration: underline;
+    }
+
+    .main-header .main-nav .btn.btn-blue{
+        margin-left: 10px;
+    }
+
+    /* Main nav end */
+
