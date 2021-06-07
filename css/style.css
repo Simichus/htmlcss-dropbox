@@ -248,9 +248,18 @@ main{
           margin: 25px 0;
       }
 
-      .bp-type .info-bp:nth-child(3) div{
-          display: inline-block;
+      .bp-type .info-bp .icon-left, .bp-type .info-bp .info-bp-text{
+          float: left;
       }
+
+      .bp-type .info-bp .icon-left{
+        width: 16px;
+    }
+
+    .bp-type .info-bp .info-bp-text{
+        width: 95%;
+        padding-left: 1px;
+    }
 
       .bp-type .info-bp:last-child{
           margin-bottom: 100px;
