@@ -32,8 +32,16 @@ body{
     width: 70%;
 }
 
+.wh-60{
+    width: 60%;
+}
+
 .wh-50{
     width: 50%;
+}
+
+.wh-40{
+    width: 40%;
 }
 
 .wh-33{
@@ -46,6 +54,7 @@ body{
 
 a{
     text-decoration: none;
+    color: black;
 }
 
 .btn{
@@ -86,7 +95,6 @@ a{
 
     .main-header .main-nav ul li a{
         font-weight: 600;
-        color: black;
     }
 
     .main-header .main-nav ul li a:hover{
@@ -102,6 +110,43 @@ a{
     /* Spotlight */
 
     .spotlight{
-        background-color: rgb(47, 120, 255);
-        height: 1000px;
+        background-color: rgb(169, 212, 252);
+        height: 850px;
+        padding: 100px 0;
     }
+
+    .spotlight h1{
+        font-size: 85px;
+        font-weight: 900;
+        margin-bottom: 50px;
+    }
+
+    .spotlight .wh-40 p, .spotlight .wh-40 a{
+        font-size: 22px;
+    }
+    .spotlight p, .spotlight .wh-40 div{
+        font-weight: 600;
+    }
+
+    .spotlight p{
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+
+    .spotlight .wh-40 div{
+        margin-top: 20px;
+    }
+
+    .spotlight .wh-40 .fa-arrow-down{
+        font-size: 50px;
+        margin-top: 50px;
+    }
+
+    .spotlight .wh-60 img{
+        width: 100%;
+        position: relative;
+        top: 20px;
+        filter: drop-shadow(2px 2px 10px rgba(0, 0, 0, 0.5));
+    }
+
+    /* Spotlight end */
