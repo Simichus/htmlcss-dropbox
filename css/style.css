@@ -52,6 +52,10 @@ body{
     width: calc(100% / 3);
 }
 
+.wh-30{
+    width: 30%;
+}
+
 .ta-r{
     text-align: right;
 }
@@ -81,6 +85,7 @@ a{
 
 .btn-white{
     color: black;
+    background-color: #fff;
     border: 1px solid black;
     font-weight: 600;
     transition: background-color .25s;
@@ -89,6 +94,10 @@ a{
 .btn-white:hover{
     color: white;
     background-color: black;
+}
+
+.btn-borderless{
+    border: none;
 }
 
 .btn-full{
@@ -402,6 +411,10 @@ main{
 
     /* Operazione section */
 
+    #operation{
+        margin-bottom: 100px;
+    }
+
     #operation h2{
         font-size: 48px;
         margin-bottom: 50px;
@@ -430,3 +443,121 @@ main{
     }
 
     /* Operation section end */
+
+    /* Clients section */
+
+    #clients .container-70 h2{
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+
+    #clients .container-70 .link{
+        margin: 20px 0;
+        color: blue;
+        text-decoration: underline;
+    }
+
+    #clients .container-70 .link:hover{
+        color: rgb(68, 0, 255);
+    }
+
+        /* Clients logos */
+
+        #clients > .row{
+            margin-top: 30px;
+        }
+
+        #clients > .row .wh-40{
+            background-color: rgb(240, 240, 240);
+            padding: 40px 50px;
+            height: 30vw;
+        }
+
+        #clients > .row .wh-40 img{
+            height: 40px;
+        }
+        
+        #clients > .row .wh-40 hr{
+            color: transparent;
+            border-top: 1px solid lightgray;
+            width: 10%;
+            margin-top: 30px;
+            margin-bottom: 50px;
+        }
+
+        #clients > .row .wh-40 p{
+            margin-bottom: 40px;
+        }
+
+        #clients > .row .wh-40 p, #clients > .row .wh-40 .author{
+            font-size: 20px;
+        }
+
+        #clients > .row .wh-30 .wh-50 figure{
+            position: relative;
+            height: calc(30vw / 2);
+        }
+
+        #clients > .row .wh-30 .wh-50 img{
+            width: 70%;
+            filter: invert(1);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+            /* Logos bgc */
+            
+            #designit{
+                background-color: green;
+            }
+
+            #asu{
+                background-color: rgb(151, 0, 63);
+            }
+
+            #uflorida{
+                background-color: rgb(0, 162, 255);
+            }
+
+            #topps{
+                background-color: red;
+            }
+
+            #wbr{
+                background-color: rgb(194, 0, 0);
+            }
+
+            #hearst-corp{
+                background-color: rgb(168, 198, 255);
+            }
+
+            #lonely-planet{
+                background-color: darkblue;
+            }
+
+            #clear-channel{
+                background-color: goldenrod;
+            }
+
+            /* Logo bgc end */
+        
+        /* Client logos end */
+
+        #clients .your-company{
+            height: 350px;
+            padding-top: 110px;
+            padding-bottom: 110px;
+            background-color: rgb(169, 212, 252);
+        }
+
+        #clients .your-company h2{
+            color: rgb(121, 0, 70);
+        }
+
+        #clients .your-company .btn{
+            line-height: 90px;
+        }
+
+        /* Clients section end */
