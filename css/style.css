@@ -508,6 +508,7 @@ main{
         #clients > .row .wh-30 .wh-50 figure{
             position: relative;
             height: calc(30vw / 2);
+            transition: border .25s linear;
         }
 
         #clients > .row .wh-30 .wh-50 img{
@@ -523,34 +524,74 @@ main{
             
             #designit{
                 background-color: green;
+                border: 0px solid rgb(0, 158, 0);
             }
-
+            
+            #designit:hover{
+                border: 20px solid rgb(0, 158, 0);
+            }
+            
             #asu{
                 background-color: rgb(151, 0, 63);
+                border: 0px solid rgb(181, 0, 93);
+            }
+
+            #asu:hover{
+                border: 20px solid rgb(181, 0, 93);
             }
 
             #uflorida{
                 background-color: rgb(0, 162, 255);
+                border: 0px solid rgb(62, 184, 255);
+            }
+
+            #uflorida:hover{
+                border: 20px solid rgb(62, 184, 255);
             }
 
             #topps{
-                background-color: red;
+                background-color: rgb(255, 0, 0);
+                border: 0px solid rgb(255, 73, 73);
+            }
+
+            #topps:hover{
+                border: 20px solid rgb(255, 73, 73);
             }
 
             #wbr{
                 background-color: rgb(194, 0, 0);
+                border: 0px solid rgb(224, 0, 0);
+            }
+
+            #wbr:hover{
+                border: 20px solid rgb(224, 0, 0);
             }
 
             #hearst-corp{
                 background-color: rgb(168, 198, 255);
+                border: 0px solid rgb(215, 229, 255);
+            }
+
+            #hearst-corp:hover{
+                border: 20px solid rgb(215, 229, 255);
             }
 
             #lonely-planet{
                 background-color: darkblue;
+                border: 0px solid rgb(0, 0, 199);
             }
 
+            #lonely-planet:hover{
+                border: 20px solid rgb(32, 32, 197);
+            }
+            
             #clear-channel{
                 background-color: goldenrod;
+                border: 0px solid rgb(212, 183, 110);
+            }
+
+            #clear-channel:hover{
+                border: 20px solid rgb(212, 183, 110);
             }
 
             /* Logo bgc end */
