@@ -248,12 +248,8 @@ main{
           margin: 25px 0;
       }
 
-      .bp-type .info-bp:nth-child(3) i, .bp-type .info-bp:nth-child(3) span{
+      .bp-type .info-bp:nth-child(3) div{
           display: inline-block;
-      }
-
-      .bp-type .info-bp:nth-child(3) span{
-          width: 83%;
       }
 
       .bp-type .info-bp:last-child{
@@ -298,6 +294,15 @@ main{
 
       /* Business plan columns end */
 
+      .enterprise{
+          margin-top: 70px;
+          margin-bottom: 100px;
+      }
+
+      .enterprise .bp-type{
+          width: 96.7%;
+      }
+
       .enterprise .bp-type .main-bp{
           height: max-content;
       }
@@ -318,4 +323,9 @@ main{
 
       .enterprise .bp-type h4{
           font-size: 18px;
+      }
+
+      .enterprise .bp-type p{
+          margin-top: 40px;
+          margin-bottom: 30px;
       }
