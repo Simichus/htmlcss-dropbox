@@ -126,6 +126,7 @@ a{
         height: 70px;
         width: 100%;
         padding: 0 20px;
+        border-bottom: 2px solid lightgray;
         z-index: 1;
     }
 
@@ -190,7 +191,7 @@ a{
     .spotlight .wh-40 .fa-arrow-down{
         font-size: 50px;
         margin-top: 50px;
-        animation: top-to-bottom 1s linear infinite;
+        animation: top-to-bottom 1.5s linear infinite;
     }
 
     @keyframes top-to-bottom{
