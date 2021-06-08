@@ -126,7 +126,7 @@ a{
         height: 70px;
         width: 100%;
         padding: 0 20px;
-        border-bottom: 2px solid lightgray;
+        border-bottom: 1px solid lightgray;
         z-index: 1;
     }
 
@@ -140,16 +140,53 @@ a{
     }
     
     .main-header .main-nav ul li{
-        line-height: 70px;
+        line-height: 68px;
         margin: 0 20px;
     }
 
     .main-header .main-nav ul li a{
+        position: relative;
         font-weight: 600;
     }
 
     .main-header .main-nav ul li a:hover{
-        text-decoration: underline;
+        border-bottom: 2px solid black;
+    }
+
+    .main-header .main-nav ul li .menu-select{
+        position: absolute;
+        top: 70px;
+        transform: translateX(-71px);
+        text-align: center;
+        opacity: 0;
+        width: 250px;
+        background-color: #fff;
+        border: 1px solid lightgray;
+        border-top: none;
+    }
+
+    .main-header .main-nav ul li .menu-select ul{
+        list-style-type: none;
+    }
+
+    .main-header .main-nav ul li .menu-select ul li{
+        line-height: initial;
+        display: block;
+    }
+    
+    .main-header .main-nav ul li:hover .menu-select{
+        opacity: 1;
+    }
+
+    .main-header .main-nav ul li .menu-select ul li a{
+        display: block;
+        padding: 10px 20px;
+        margin: 10px 0;
+    }
+    
+    .main-header .main-nav ul li .menu-select ul li a:hover{
+        border-bottom: none;
+        background-color: rgb(235, 235, 235);
     }
 
     .main-header .main-nav .btn.btn-blue{
@@ -191,7 +228,7 @@ a{
     .spotlight .wh-40 .fa-arrow-down{
         font-size: 50px;
         margin-top: 50px;
-        animation: top-to-bottom 1.5s linear infinite;
+        animation: top-to-bottom 3s linear infinite;
     }
 
     @keyframes top-to-bottom{
@@ -199,19 +236,19 @@ a{
             transform: translateY(0);
         }
 
-        25%{
+        20%{
             transform: translateY(-25%);
         }
 
-        50%{
+        40%{
             transform: translateY(0);
         }
 
-        75%{
+        60%{
             transform: translateY(25%);
         }
 
-        100%{
+        80%{
             transform: translateY(0);
         }
     }
