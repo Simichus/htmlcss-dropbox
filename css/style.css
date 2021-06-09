@@ -693,6 +693,7 @@ main{
         }
 
         #question .row .description{
+            color: gray;
             margin-top: 20px;
             display: none;
         }
