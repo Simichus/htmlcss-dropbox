@@ -158,8 +158,8 @@ a{
         top: 70px;
         transform: translateX(-71px);
         text-align: center;
-        opacity: 0;
-        width: 250px;
+        visibility: hidden;
+        width: max-content;
         background-color: #fff;
         border: 1px solid lightgray;
         border-top: none;
@@ -175,7 +175,7 @@ a{
     }
     
     .main-header .main-nav ul li:hover .menu-select{
-        opacity: 1;
+        visibility: visible;
     }
 
     .main-header .main-nav ul li .menu-select ul li a{
