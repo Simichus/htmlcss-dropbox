@@ -669,13 +669,36 @@ main{
             margin-bottom: 60px;
         }
 
-        #question .row.clearfix{
+        #question .row{
             padding: 40px 0;
             border-bottom: 1px solid lightgray;
         }
 
-        #question .row.clearfix:nth-child(2){
+        #question .row:nth-child(2){
             border-top: 1px solid lightgray;
+        }
+
+        #question .row h3{
+            display: inline-block;
+        }
+
+        #question .arrow::before{
+            font-family: "Font Awesome 5 Free";
+            font-weight: 900;
+            content: "\f078";
+        }
+
+        #question .row:hover .arrow::before{
+            content: "\f077";
+        }
+
+        #question .row .description{
+            margin-top: 20px;
+            display: none;
+        }
+
+        #question .row:hover .description{
+            display: block;
         }
 
         /* Question section end */
